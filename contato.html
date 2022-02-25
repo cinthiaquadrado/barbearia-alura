@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width">
     <title>Contato - Barbearia Alura</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
     <header>
         <div class="caixa">
@@ -34,14 +37,16 @@
 
             <label for="mensagem">Mensagem</label>
             <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
-            
+
             <fieldset>
                 <legend>Como prefere o nosso contato?</legend>
                 <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
-                
-                <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
 
-                <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
+                <label for="radio-telefone"><input type="radio" name="contato" value="telefone"
+                        id="radio-telefone">Telefone</label>
+
+                <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp"
+                        checked>WhatsApp</label>
             </fieldset>
             <fieldset>
                 <legend>Qual o horário prefere ser atendido?</legend>
@@ -52,7 +57,8 @@
                 </select>
             </fieldset>
 
-            <label class="checkbox"><input type="checkbox" checked> Gostaria de receber nossas novidades por email?</input></label>
+            <label class="checkbox"><input type="checkbox" checked> Gostaria de receber nossas novidades por
+                email?</input></label>
             <input type="submit" value="Enviar formulário" class="enviar">
         </form>
 
@@ -84,4 +90,5 @@
         <p class="copyright">&#169; Copyright Barbearia Alura - 2019</p>
     </footer>
 </body>
-</html> 
+
+</html>
